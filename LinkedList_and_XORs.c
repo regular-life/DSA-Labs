@@ -1,3 +1,66 @@
+// NOTE - you can create a singly/doubly linked list from scratch. Your submission will not be graded if implementation of singly/doubly linked list is not found.
+
+// You will be given a linked list with 𝑁
+//  elements. Following are some operations that can be performed on the linked list:
+
+// KthNode K : Print -1 if 𝐾
+//  is greater than the length of the linked list. Otherwise in this operation you have to print the 𝐾𝑡ℎ
+//  node of the linked list.
+// Delete K : Print -1 if 𝐾
+//  is greater than the length of the linked list. Otherwise in this operation you have to delete the 𝐾𝑡ℎ
+//  node of the linked list.
+// Add K X: Print -1 if 𝐾
+//  is greater than the length of the linked list. Otherwise in this operation you have to Add the value 𝑋
+//  to the 𝐾𝑡ℎ
+//  node of the linked list.
+// Subtract K X: Print -1 if 𝐾
+//  is greater than the length of the linked list. Otherwise in this operation you have to Subtract the value 𝑋
+//  to the 𝐾𝑡ℎ
+//  node of the linked list.
+// Xor K : Print -1 if 𝐾
+//  is greater than the length of the linked list. Otherwise in this operation you have to print the value of the xor of last 𝐾𝑡ℎ
+//  nodes of the linked list.
+// You will be given 𝑄
+//  of the above mentioned operations to be performed on the linked list.
+
+// Constraints:
+
+// 1 ≤ 𝑁∗𝑄 ≤ 10^7
+// 1 ≤ 𝐾 ≤ 10^5
+// 1 ≤ Linked List Node value, X ≤ 10^9
+
+// Input
+// The first line contains 2 integers 𝑁
+//  and 𝑄
+//  denoting the length of the linked list and number of queries. The next line contains 𝑁
+//  spaced integers denoting the elements of the linked list. Each of the following 𝑄
+//  lines contain one of the operations to be performed on the linked list as mentioned in the problem.
+
+// Output
+// Print the output corresponding to the operations if any.
+
+// input
+// 10 9
+// 3 10 3 3 5 7 1 2 8 6
+// Delete 9
+// KthNode 1
+// Delete 4
+// KthNode 6
+// KthNode 5
+// Delete 5
+// KthNode 2
+// Xor 7
+// Xor 5
+
+// output
+// 3
+// 1
+// 7
+// 10
+// 10
+// 3
+
+
 #include <conio.h>
 #include <stdio.h>
 #include <assert.h>
