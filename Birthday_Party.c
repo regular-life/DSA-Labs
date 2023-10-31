@@ -14,7 +14,7 @@
 // The first line contains a single integer 𝑛
 //  (1≤𝑛≤105
 // ) — the number of elements in the array.
-
+//
 // The second line contains 𝑛
 //  distinct integers 𝑑1,𝑑2,…,𝑑𝑛
 //  (1≤𝑎𝑖≤106
