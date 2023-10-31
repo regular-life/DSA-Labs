@@ -1,3 +1,45 @@
+// You are tasked with implementing an AVL tree, a self-balancing binary search tree. The tree supports two types of operations: insert x and subtree x.
+
+// For the insert x operation, you need to insert the element x into the AVL tree. After the insertion, you should print two space-separated integers representing the total number of left rotations (L) and right rotations (R) performed during the insertion process, respectively.
+// The subtree x operation requires you to print the sum of all elements in the subtree rooted at node x, including the value of x itself if x exists otherwise print 'NA'.
+// Constraints:
+
+// The number of queries, denoted by Q, will be between 1
+//  and 10^5
+// , inclusive. (1 ≤ 𝑄 ≤ 10^5)
+// Each query will be either of the two types: insert x or subtree x.
+// For the insert x operation, the value of x will be an integer between −10^9
+//  and 10^9
+// , inclusive. (−10^9 ≤ 𝑥 ≤ 10^9)
+// All input and output values will fit in a 64
+// -bit signed integer.
+// Input
+// The first line of the input contains an integer 𝑄
+// , representing the number of queries.
+
+// The next 𝑄
+//  lines contain the queries. Each query is in one of the following formats:
+
+// insert x: representing the insertion of the element x into the AVL tree.
+// subtree x: representing the query to print the sum of the subtree rooted at node x.
+// It is guaranteed that the input format will follow the constraints mentioned earlier.
+// Output
+// print the answer of each query in above mentioned format.
+
+
+// input
+// 9
+// insert 1
+// subtree 1
+// insert 5
+// subtree 1
+// insert 3
+// subtree 1
+// subtree 3
+// subtree 5
+// subtree 10
+
+
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
