@@ -1,3 +1,29 @@
+// Dee and Anny are working on a case where a building, consisting of m*n houses, caught fire in an accident. They have already determined which houses the fire started to spread from. As forensic investigators, they want to determine how long it took for the entire building to burn down, given that the fire can spread from one house to every house touching that house.
+
+// Constraints
+
+// 1≤𝑚,𝑛≤104
+// 1≤𝑚∗𝑛≤105
+// Input
+// The first line of input consists of two integers 𝑚
+//  and 𝑛
+//  respectively. Subsequently, there are 𝑚
+//  lines with 𝑛
+//  entries in each line representing the binary 2D matrix. Where 1
+//  represent the starting point of the fire spread and 0
+//  represent the unburned houses.
+
+// Output
+// To determine the time it took for all the houses to burn down.
+
+// input
+// 3 3
+// 0 0 0
+// 0 1 0
+// 0 0 0
+// output
+// 1
+
 #include <conio.h>
 #include <stdio.h>
 #include <assert.h>
