@@ -1,3 +1,31 @@
+// You are given the level order traversal of a binary tree. The level order traversal of a binary tree is defined as the sequence of node values visited by level, from the root node at level 0, followed by the nodes at level 1, then level 2, and so on. Each level is visited from left to right. If a node has no child, it is represented by the integer -1 in the level order traversal sequence.
+
+// Your task is to compute the absolute difference between the height and diameter of the binary tree represented by the given level order traversal.
+
+// The height of a binary tree is defined as the length of the longest path from the root node to any leaf node in the tree.
+
+// The diameter of a binary tree is defined as the length of the longest path between any two nodes in the tree.
+
+// Input
+// The input consists of two lines. The first line contains a single integer 𝑛
+//  (1≤𝑛≤104)
+// , the number of nodes in the binary tree.
+
+// The second line contains 2𝑛+1
+//  space-separated integers representing the level order traversal of the binary tree, where each integer represents the value of a node in the tree.
+
+// The values of the nodes are unique and range from 1 to 𝑛
+// . If a node has no child, it is represented by the integer -1.
+
+// Output
+// Output a single integer, the absolute difference between the height and diameter of the binary tree
+
+// input
+// 6
+// 1 2 3 4 -1 5 -1 6 -1 -1 -1 -1 -1
+// output
+// 2
+
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
