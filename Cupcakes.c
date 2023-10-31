@@ -1,3 +1,49 @@
+// NOTE: the easy and the hard version of the problem vary on the basis of the constraints given. Use of any other libraries apart from "stdio.h" is not allowed. Otherwise, your submission will not be graded.
+
+// Lawrence has bought 𝑁
+//  cupcakes for Kone. But it turns out that Kone doesn't want to eat them. Kone will eat the cupcakes only if Lawrence solves the problem given by him. Kone arranges the cupcakes in a row and assigns a random value 𝐴𝑖
+//  to the 𝑖𝑡ℎ
+//  cupcake. The values assigned to the cupcakes will be given to you in the form of an array 𝐴
+// . He asks Lawrence to arrange the cupcakes in the ascending order of their values. Now he gives him 𝑄
+//  queries to answer. In each query Kone gives three integers 𝐿,𝑅,𝐾
+//  where 𝐿,𝑅
+//  are indices of the array. Lawrence needs to print the number of subarrays in the subarray 𝐴[𝐿..𝑅]
+//  which have 𝐾
+//  distinct elements.
+
+// Constraints:
+
+// 1≤𝐴𝑖≤100
+// 1≤𝑁≤3∗103
+// 1≤𝑄≤50
+// 0≤𝐿≤𝑅≤𝑁−1
+// 1≤𝐾≤𝑁
+// Input
+// The first line contains two spaced integers 𝑁
+//  and 𝑄
+// . The next line contains 𝑁
+//  spaces integers 𝐴𝑖
+//  denoting the values of the cupcakes. Each of the next 𝑄
+//  lines contain 3 integers 𝐿,𝑅,𝐾
+// .
+
+// Output
+// Print the number of subarrays in the subarray 𝐴[𝐿..𝑅]
+//  which have 𝐾
+//  distinct elements for every query in separate line.
+// input
+
+// 7 2
+// 60 66 94 56 59 8 67
+// 4 5 7
+// 5 6 6
+
+
+// output
+
+// 0
+// 0
+
 #include <stdio.h>
 
 void merge(int arr[], int l, int m, int r)
