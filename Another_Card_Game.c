@@ -1,3 +1,40 @@
+// Ishu and Rohu are back with their exciting card game using a deck of 𝑁
+//  cards. Each card has a non-negative value assigned to it.
+
+// The game is played as follows: Ishu and Rohu take turns drawing cards from the deck. In each turn, Rohu draws the card with the smallest value, while Ishu draws the card with the largest value. After each draw, a new card is placed in the deck with a value equal to the absolute difference between the cards drawn by Ishu and Rohu. This process continues until there are fewer than 2 cards left in the deck.
+
+// After each turn, Ishu and Rohu want to know the score, which is the sum of all the card values obtained up to that point.
+
+// You need to write a program to help Ishu and Rohu determine the score after each turn.
+
+// Input
+// The first line of input contains a single integer, 𝑁
+//  (1 ≤ 𝑁 ≤ 10^5)
+//  denoting the number of cards.
+
+// The second line of input contains 𝑁
+//  space-separated non-negative integers, representing the initial values assigned to the 𝑁
+//  cards. The values ranges from 1 to 109
+// .
+
+// Output
+// Print 𝑛−1
+//  lines, each containing a single integer. The 𝑖
+// -th line represents the score after the 𝑖
+// -th turn.
+
+
+// input
+// 6
+// 8 9 2 10 5 4
+
+// output
+// 34
+// 26
+// 16
+// 10
+// 0
+
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
