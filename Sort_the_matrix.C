@@ -1,3 +1,41 @@
+// NOTE: Please note that to solve the problem, you would need to implement quicksort algorithm from scratch. Otherwise, your submission will not be graded. Use of any other libraries apart from "stdio.h" is not allowed. Otherwise, your submission will not be graded.
+
+// Given an 𝑚
+//  x 𝑛
+//  2D matrix 𝐴
+//  consisting of only 0𝑠
+//  and 1𝑠
+// , sort the columns of 𝐴
+//  such that the sums of columns are in non-decreasing order. In case two columns have equal sums, prioritise the column with a lower index in the original input. Print the final binary matrix after sorting.
+
+// Constraints
+
+// 1≤𝑚,𝑛≤104
+// 1≤𝑚∗𝑛≤106
+// Input
+// The first line of input consists of two integers 𝑚
+//  and 𝑛
+//  respectively. Subsequently, there are 𝑚
+//  lines with 𝑛
+//  entries in each line representing the binary 2D matrix.
+
+// Output
+// Print the final binary matrix after sorting according to the criteria specified.
+// input
+
+// 4 5
+// 0 0 1 1 0
+// 1 1 1 0 1
+// 0 1 1 1 0
+// 1 0 1 1 0
+
+// output
+
+// 0 0 0 1 1 
+// 1 1 1 0 1 
+// 0 0 1 1 1 
+// 0 1 0 1 1 
+
 #include <stdio.h>
 
 #define print(arr, n) for (int i = 0 ; i < n ; i ++) {printf("%d ", arr[i]) ;}
